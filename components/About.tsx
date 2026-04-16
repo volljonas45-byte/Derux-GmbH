@@ -8,7 +8,7 @@ export default function About() {
       <div className="relative overflow-hidden">
         <div className="relative h-[70vh] min-h-[480px]">
           <Image
-            src="/event-leinwand.png"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/event-leinwand.png`}
             alt="DERUX GmbH – International präsent"
             fill
             className="object-cover object-center"

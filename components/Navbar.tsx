@@ -30,7 +30,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between h-20">
         <Link href="/">
           <Image
-            src="/logo-derux.png"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/logo-derux.png`}
             alt="DERUX GmbH"
             width={160}
             height={48}

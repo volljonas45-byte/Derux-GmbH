@@ -16,7 +16,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Image
-              src="/logo-derux.png"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/logo-derux.png`}
               alt="DERUX GmbH"
               width={150}
               height={45}
