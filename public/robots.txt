@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://volljonas45-byte.github.io/Derux-GmbH/sitemap.xml
